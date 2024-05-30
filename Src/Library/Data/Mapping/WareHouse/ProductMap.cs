@@ -1,11 +1,16 @@
-﻿using System;
-namespace Data.Mapping.WareHouse
+﻿using Data.Schema;
+using Entity.WareHouse;
+using Microsoft.EntityFrameworkCore;
+using Microsoft.EntityFrameworkCore.Metadata.Builders;
+
+namespace Data.Mapping.WareHouse;
+
+	public class ProductMap : IEntityTypeConfiguration<Product>
 {
-	public class ProductMap
-	{
-		public ProductMap()
-		{
-		}
-	}
+    public void Configure(EntityTypeBuilder<Product> builder)
+    {
+        builder.ToTable("Product", DataBaseSchema.WareHouse)
+            .HasKey(x => x.ProductId);
+    }
 }
 

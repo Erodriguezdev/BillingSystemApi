@@ -5,12 +5,12 @@ using Microsoft.EntityFrameworkCore.Metadata.Builders;
 
 namespace Data.Mapping.Financial;
 
-public class InvoiceMap : IEntityTypeConfiguration<Invoice>
+public class TypeInvoiceMap : IEntityTypeConfiguration<TypeInvoice>
 {
-    public void Configure(EntityTypeBuilder<Invoice> builder)
+    public void Configure(EntityTypeBuilder<TypeInvoice> builder)
     {
-        builder.ToTable("Invoice", DataBaseSchema.Financial)
-            .HasKey(x => x.InvoiceId);
+        builder.ToTable("TypeInvoice", DataBaseSchema.Financial)
+            .HasKey(x => x.TypeInvoiceId);
     }
 }
 

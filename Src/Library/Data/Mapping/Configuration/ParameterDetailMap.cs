@@ -7,12 +7,12 @@ using Microsoft.EntityFrameworkCore.Metadata.Builders;
 
 namespace Data.Mapping.Configuration
 {
-	public class ParameterMap : IEntityTypeConfiguration<Parameter>
+	public class ParameterDetailMap : IEntityTypeConfiguration<ParameterDetail>
     {
-        public void Configure(EntityTypeBuilder<Parameter> builder)
+        public void Configure(EntityTypeBuilder<ParameterDetail> builder)
         {
-            builder.ToTable("Parameter", DataBaseSchema.Financial)
-                .HasKey(x => x.ParameterId);
+            builder.ToTable("ParameterDetail", DataBaseSchema.Financial)
+                .HasKey(x => x.ParameterDetailId);
         }
     }
 }
