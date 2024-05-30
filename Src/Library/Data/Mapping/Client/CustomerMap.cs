@@ -1,12 +1,12 @@
 ﻿
 using Data.Schema;
+using Entity.Client;
 using Microsoft.EntityFrameworkCore;
 using Microsoft.EntityFrameworkCore.Metadata.Builders;
-using Entity.Client;
 
 namespace Data.Mapping.Client;
 
-	public class CustomerMap: IEntityTypeConfiguration<Customer>
+public class CustomerMap: IEntityTypeConfiguration<Customer>
 	{
     public void Configure(EntityTypeBuilder<Customer> builder)
     {

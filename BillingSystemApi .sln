@@ -3,13 +3,13 @@ Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio Version 16
 VisualStudioVersion = 25.0.1706.12
 MinimumVisualStudioVersion = 10.0.40219.1
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "BillingSystemApi", "Scr\Api\BillingSystemApi.csproj", "{1C55F6C9-C4A2-47B5-80DE-DEAE53C3384A}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "BillingSystemApi", "Src\Api\BillingSystemApi.csproj", "{1C55F6C9-C4A2-47B5-80DE-DEAE53C3384A}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Data", "Scr\Library\Data\Data\Data.csproj", "{318C56AA-9B52-4E48-812B-156AF8FBEE2C}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Data", "Src\Library\Data\Data.csproj", "{318C56AA-9B52-4E48-812B-156AF8FBEE2C}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Service", "Scr\Library\Service\Service\Service.csproj", "{6F740749-6EA7-4D4F-8BA3-87A20852F198}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Service", "Src\Library\Service\Service.csproj", "{6F740749-6EA7-4D4F-8BA3-87A20852F198}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Entity", "Scr\Library\Entity\Entity\Entity.csproj", "{CE04D636-ECDA-44B8-82F8-6383699AFFB1}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Entity", "Src\Library\Entity\Entity.csproj", "{CE04D636-ECDA-44B8-82F8-6383699AFFB1}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution

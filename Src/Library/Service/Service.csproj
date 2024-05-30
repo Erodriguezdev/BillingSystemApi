@@ -7,10 +7,6 @@
   </PropertyGroup>
 
   <ItemGroup>
-    <ProjectReference Include="..\..\Entity\Entity\Entity.csproj" />
-    <ProjectReference Include="..\..\Data\Data\Data.csproj" />
-  </ItemGroup>
-  <ItemGroup>
     <None Remove="Interface\" />
     <None Remove="ViewModels\" />
     <None Remove="Service\" />
@@ -19,5 +15,9 @@
     <Folder Include="Interface\" />
     <Folder Include="ViewModels\" />
     <Folder Include="Service\" />
+  </ItemGroup>
+  <ItemGroup>
+    <ProjectReference Include="..\Data\Data.csproj" />
+    <ProjectReference Include="..\Entity\Entity.csproj" />
   </ItemGroup>
 </Project>
